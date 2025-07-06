@@ -53,7 +53,7 @@ export default function ProdutoItem(props: ProdutoItemProps) {
 
                 <button 
                   className="flex justify-center items-center gap-2 h-8
-                  bg-violet-400 hover:border-2 border-emerald-500 rounded-md
+                  bg-violet-400 hover:border-2 border-emerald-500 rounded-3xl
                   "
                   onClick={(e) => {
                     e.preventDefault()

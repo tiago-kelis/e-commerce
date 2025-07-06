@@ -27,6 +27,12 @@ body {
 
 @layer components {
   .container {
-    @apply max-w-3xl mx-auto px-50
+    @apply max-w-3xl mx-auto px-50;
+  }
+
+  .button {
+    @apply flex justify-center items-center;
+    @apply gap-2 rounded-full px-9 h-9;
+    @apply text-sm font-semibold;
   }
 }

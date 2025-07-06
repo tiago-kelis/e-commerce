@@ -27,6 +27,6 @@ body {
 
 @layer components {
   .container {
-    @apply max-w-3xl mx-auto px-80
+    @apply max-w-3xl mx-auto px-50
   }
 }

@@ -102,7 +102,7 @@ const produtos: Produto[] = [
 
     },
      {
-        id: 1,
+        id: 5,
         name: "Notebook Acer Gamer Nitro 5",
         descricao: "O melhor da categoria, e mais vendido do mercado",
         marca: "Acer",
@@ -127,7 +127,7 @@ const produtos: Produto[] = [
 
     },
     {
-        id: 2,
+        id: 6,
         name: "Notebook Acer 3",
         descricao: "O melhor da categoria, e mais vendido do mercado",
         marca: "Acer",
@@ -152,7 +152,7 @@ const produtos: Produto[] = [
 
     },
     {
-        id: 3,
+        id: 7,
         name: "Notebook Azus Gamer Pro-XTZ 3",
         descricao: "O melhor da categoria, e mais vendido do mercado",
         marca: "Azus",
@@ -177,7 +177,7 @@ const produtos: Produto[] = [
 
     },
     {
-        id: 4,
+        id: 8,
         name: "Notebook HP",
         descricao: "O melhor da categoria, e mais vendido do mercado",
         marca: "Acer",
@@ -202,7 +202,7 @@ const produtos: Produto[] = [
 
     },
      {
-        id: 1,
+        id: 9,
         name: "Notebook Acer Gamer Nitro 5",
         descricao: "O melhor da categoria, e mais vendido do mercado",
         marca: "Acer",
@@ -227,7 +227,7 @@ const produtos: Produto[] = [
 
     },
     {
-        id: 2,
+        id: 10,
         name: "Notebook Acer 3",
         descricao: "O melhor da categoria, e mais vendido do mercado",
         marca: "Acer",
@@ -252,7 +252,7 @@ const produtos: Produto[] = [
 
     },
     {
-        id: 3,
+        id: 11,
         name: "Notebook Azus Gamer Pro-XTZ 3",
         descricao: "O melhor da categoria, e mais vendido do mercado",
         marca: "Azus",
@@ -277,7 +277,7 @@ const produtos: Produto[] = [
 
     },
     {
-        id: 4,
+        id: 12,
         name: "Notebook HP",
         descricao: "O melhor da categoria, e mais vendido do mercado",
         marca: "Acer",

@@ -13,7 +13,7 @@ export default function ListaProdutos() {
             "
         >
             {produtos.map((produto) => (
-                <ProdutoItem produto={produto} key={produto.id} />
+                <ProdutoItem key={produto.id} produto={produto} />
             ))}
         </div>
     ) : (

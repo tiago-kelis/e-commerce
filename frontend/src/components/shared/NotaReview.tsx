@@ -12,11 +12,11 @@ export default function NotaReview(props: NotaReviewProps) {
 
         for (let i = 1; i <= 5; i++) {
             if(nota >= i) {
-                estrelas.push(<IconStarFilled size={props.tamanho ?? 12}/>)
+                estrelas.push(<IconStarFilled key={i} size={props.tamanho ?? 12}/>)
             }else if(nota >= i - 0.5) {
-                estrelas.push(<IconStarHalfFilled size={props.tamanho ?? 12} />)
+                estrelas.push(<IconStarHalfFilled key={i} size={props.tamanho ?? 12} />)
             }else {
-                estrelas.push(<IconStar size={props.tamanho ?? 12}/>)
+                estrelas.push(<IconStar key={i} size={props.tamanho ?? 12}/>)
             }
         }
 

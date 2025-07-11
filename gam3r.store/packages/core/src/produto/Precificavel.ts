@@ -1,8 +1,7 @@
-
 export default interface Precificavel {
     precoBase: number
     precoPromocional: number
-    menorPregco: number
+    menorPreco: number
     maiorPreco: number
     precoMedio: number
 }

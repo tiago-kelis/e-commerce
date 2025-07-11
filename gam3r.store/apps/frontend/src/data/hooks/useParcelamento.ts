@@ -1,4 +1,4 @@
-import CalcularParcelamento from "@/core/parcelamento/CalcularParcelamento"
+import CalcularParcelamento from "@gstore/core/parcelamento/CalcularParcelamento"
 
 
 export default function useParcelamento(valor: number, quantidade: number = 12) {

@@ -1,5 +1,20 @@
 /* eslint-disable prettier/prettier */
-import { Injectable } from '@nestjs/common';
+import { Injectable, OnModuleDestroy, OnModuleInit } from '@nestjs/common';
+import { PrismaClient } from 'generated/prisma';
+
+
+
 
 @Injectable()
-export class PrismaProvider {}
+export class PrismaProvider extends PrismaClient
+implements OnModuleInit, OnModuleDestroy {
+
+
+    async onModuleInit() {
+        await this.$connect();
+    }
+
+    async onModuleDestroy() {
+        await this.$disconnect();
+    }
+}

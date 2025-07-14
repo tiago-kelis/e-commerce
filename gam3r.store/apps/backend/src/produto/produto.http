@@ -1,0 +1,37 @@
+
+GET http://localhost:3005/produtos
+
+###
+GET http://localhost:3005/produtos/26
+
+
+###
+DELETE http://localhost:3005/produtos/26
+
+
+###
+POST http://localhost:3005/produtos
+Content-Type: application/json
+
+{
+    "nome": "IPad xtz Pro Max",
+    "descricao": "Processador megaDrapDown e proUp",
+    "marca": "Apple",
+    "modelo": "Slim XZZ",
+    "imagem": "https://samsungbrshop.vtexassets.com/arquivos/ids/228347/1---_S767B~1.png",
+    "nota": 4.8,
+    "videoReview": "https://www.youtube.com/watch?v=XaqOejIaFgM",
+    "tags": ["smartphone", "celular"],
+    "precoBase": 9000.00,
+    "precoPromocional": 2500.00,
+    "menorPreco": 7000.00,
+    "maiorPreco": 14000.00,
+    "precoMedio": 8000.00,
+    "especificacoes": {
+        "Tela": "15.2 polegadas",
+        "Memória": "16 GB",
+        "Armazenamento": "128 GB",
+        "Câmera": "18 MP",
+        "Bateria": "15000 mAh"
+    }
+}

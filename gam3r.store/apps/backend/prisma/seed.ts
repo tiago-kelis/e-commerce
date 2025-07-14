@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { produtos } from "@gstore/core";
-import { PrismaClient } from "../generated/prisma";
+import { PrismaClient } from "@prisma/client";
 
 
 

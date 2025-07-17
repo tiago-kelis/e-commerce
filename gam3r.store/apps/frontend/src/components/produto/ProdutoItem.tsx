@@ -35,7 +35,7 @@ export default function ProdutoItem(props: ProdutoItemProps) {
         </div> 
           
         <div className="flex-1 flex flex-col gap-2 p-5 border-t border-white/10">
-            <span className="text-lg font-semibold">{produto.name}</span>
+            <span className="text-lg font-semibold">{produto?.nome}</span>
             <div className="flex-1"></div>
             <div className="self-start  text-sm border-b border-dashed">
                 {produto.especificacoes.destaques}

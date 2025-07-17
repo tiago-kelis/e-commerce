@@ -1,5 +1,5 @@
 export interface TagProps {
-    label: string
+    label: string | number | boolean
     icone: React.ElementType
     outlined?: boolean
 }

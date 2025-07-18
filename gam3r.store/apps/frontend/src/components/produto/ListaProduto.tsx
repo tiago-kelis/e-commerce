@@ -1,11 +1,10 @@
 'use client'
-import { produtos } from '@gstore/core'
-// import useProdutos from '@/data/hooks/useProdutos'
+import useProdutos from '@/data/hooks/useProdutos'
 import ProdutoItem from './ProdutoItem'
 import ProdutoNaoEncontrado from './ProdutoNaoEncontrado'
 
 export default function ListaProdutos() {
-    // const { produtos } = useProdutos()
+    const { produtos } = useProdutos()
     return produtos.length ? (
         <div
             className="
@@ -13,7 +12,7 @@ export default function ListaProdutos() {
             "
         >
             {produtos.map((produto) => (
-                <ProdutoItem key={produto.id} produto={produto} />
+                <ProdutoItem produto={produto} key={produto.id} />
             ))}
         </div>
     ) : (

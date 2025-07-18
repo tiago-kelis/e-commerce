@@ -27,7 +27,7 @@ body {
 
 @layer components {
   .container {
-    @apply max-w-3xl mx-auto px-50;
+    @apply max-w-3xl mx-auto px-4 sm:px-16 xl:px-32 2xl:px-62;
   }
 
   .button {
